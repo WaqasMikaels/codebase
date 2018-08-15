@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting value isnull]]>
+    </line>
+    <line>
+      <![CDATA[=================================================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: TEST BROWSER IS  CHROME]]>
+    </line>
+    <line>
+      <![CDATA[=================================================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================================================]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-08-15T13:19:40Z" name="Default suite" finished-at="2018-08-15T13:19:52Z" duration-ms="11181">
+    <groups>
+    </groups>
+    <test started-at="2018-08-15T13:19:40Z" name="Default test" finished-at="2018-08-15T13:19:52Z" duration-ms="11181">
+      <class name="com.codebase.WebTestClass">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:40Z" name="beforeClass" finished-at="2018-08-15T13:19:48Z" duration-ms="7905" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting value isnull]]>
+            </line>
+            <line>
+              <![CDATA[=================================================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================================================]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: TEST BROWSER IS  CHROME]]>
+            </line>
+            <line>
+              <![CDATA[=================================================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:48Z" name="Test01_Verify_Google_Title" finished-at="2018-08-15T13:19:48Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_Verify_Google_Title -->
+        <test-method signature="Test02_Verify_Google_Search_Button()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:48Z" name="Test02_Verify_Google_Search_Button" finished-at="2018-08-15T13:19:48Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_Verify_Google_Search_Button -->
+        <test-method signature="Test03_Verify_Google_Feeling_Lucky_Button()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:48Z" name="Test03_Verify_Google_Feeling_Lucky_Button" finished-at="2018-08-15T13:19:48Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_Verify_Google_Feeling_Lucky_Button -->
+        <test-method signature="Test04_Verify_Google_Field()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:48Z" name="Test04_Verify_Google_Field" finished-at="2018-08-15T13:19:49Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_Verify_Google_Field -->
+        <test-method signature="Test05_Type_In_Google_Field()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:49Z" name="Test05_Type_In_Google_Field" finished-at="2018-08-15T13:19:49Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_Type_In_Google_Field -->
+        <test-method signature="Test06_Verify_Country_Name()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:49Z" name="Test06_Verify_Country_Name" finished-at="2018-08-15T13:19:49Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test06_Verify_Country_Name -->
+        <test-method signature="Test07_Verify_Advertising_Link()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:49Z" name="Test07_Verify_Advertising_Link" finished-at="2018-08-15T13:19:49Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_Verify_Advertising_Link -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.WebTestClass@55f616cf]" started-at="2018-08-15T13:19:49Z" name="afterClass" finished-at="2018-08-15T13:19:52Z" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.codebase.WebTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
