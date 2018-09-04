@@ -30,7 +30,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-
+import com.codebase.ui.ClappyTestClass_UI;
+import com.codebase.ui.FrankTestClass_UI;
 import com.codebase.ui.WebTestClass_UI;
 import com.util.YamlReader;
 
@@ -54,6 +55,8 @@ public class DSLLibDesktop {
 	String Read = "c:/abc/abc.xlxs";
 	
 	public WebTestClass_UI webtestclass;
+	public FrankTestClass_UI franktestclass;
+	public ClappyTestClass_UI clappytestclass;
 	
 	
 	public DSLLibDesktop() {
@@ -186,13 +189,22 @@ public class DSLLibDesktop {
 		driver.get(YamlReader.getData("BravoUrl"));
 	}
 	
+	public void launchFrank() {
+		driver.get(YamlReader.getData("FrankUrl"));
+	}
+	
+	public void launchClappy() {
+		driver.get(YamlReader.getData("ClappyUrl"));
+	}
+	
 	/**
 	 * function to initialize object
 	 */
 	private void _initObjects() {
 		
 		webtestclass = new WebTestClass_UI(driver);
-		
+		franktestclass = new FrankTestClass_UI(driver);
+		clappytestclass = new ClappyTestClass_UI(driver);
 	}
 
 	/**

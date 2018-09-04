@@ -21,6 +21,10 @@ ArpatechUrl: https://www.arpatech.com/
 
 BravoUrl: http://app.livetam.com/signin
 
+FrankUrl: https://dev.frank.ai
+
+ClappyUrl: http://stage.clappy.live
+
 email:
     recepients: 
         recepient1: waqas.ahmed@cubixlabs.com
@@ -38,6 +42,9 @@ user:
    Subscriber:
     username: ahmed.siddiqui@bolnetwork.com
     password: Bol12345
+   ClappyAdmin:
+    username: admin1@clappy.com
+    password: 12345678
     
 Visits:
 
