@@ -662,14 +662,14 @@ public class BaseUi extends AbstractClass {
 	}
 
 	public String currentDate() {
-		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+		DateFormat dateFormat = new SimpleDateFormat("HHmmss");
 		Date date = new Date();
 		System.out.println(dateFormat.format(date)); // 2016/11/16
 		return dateFormat.format(date);
 
 	}
 	
-
+	
 	// Comparing Dates if dates are passed in string
 
 	public boolean compareDate(String Date1, String Date2) throws Exception {

@@ -5,9 +5,9 @@
     <classes>
       <class name="com.codebase.ClappyTestClass">
         <methods>
+          <include name="Test06_Verify_8_Admin_Management_Elements"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="Test02_Click_Login_Button"/>
         </methods>
       </class> <!-- com.codebase.ClappyTestClass -->
     </classes>

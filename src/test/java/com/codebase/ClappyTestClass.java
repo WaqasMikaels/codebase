@@ -46,8 +46,49 @@ public class ClappyTestClass {
 	  
 	  @Test
 	  public void Test03_Verify_Login() {
-		  
+		  dsl.clappytestclass.VerifyLogin();		  
 	  }
+	  
+	  @Test
+	  public void Test04_Redirect_To_Admin_Management() {
+		  dsl.clappytestclass.ClickOnAdminManagement();
+	  }
+	  
+	  @Test
+	  public void Test05_Verify_Redirection_To_Admin_Management() {
+		  dsl.clappytestclass.VerifyRedirectionToAdminManagement();		  
+	  }
+	  
+	  @Test
+	  public void Test06_Verify_8_Admin_Management_Elements() {
+		  dsl.clappytestclass.VerifyAdminManagementElements();
+	  }
+	  
+	  @Test
+	  public void Test07_Create_New_Admin() {
+		  dsl.clappytestclass.ClickNewAdminButton();
+	  }
+	  
+	  @Test
+	  public void Test08_Verify_Redirection_To_Create_Admin_Form() {
+		  dsl.clappytestclass.VerifyRedirectionToCreateAdminForm();		  
+	  }
+	  
+	  @Test
+	  public void Test09_Fill_Create_Admin_Form() {
+		  dsl.clappytestclass.FillCreateAdminForm();		  
+	  }
+	  
+	  @Test
+	  public void Test10_Click_Create_Admin() {
+		  dsl.clappytestclass.ClickCreateAdminButton();
+	  }
+	  
+	  @Test
+	  public void Test11_Verify_Create_Admin_Success_Message() {
+		  dsl.clappytestclass.VerifyCreateAdminSuccessMessage();
+	  }
+	  
 	  
 	  
 	  @AfterClass

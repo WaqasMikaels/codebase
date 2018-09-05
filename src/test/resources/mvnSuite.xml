@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CodeBaseSuite">
-  <test thread-count="5" name="Regressions">
-    <packages>
+  <test thread-count="1" name="Regressions">
+    <!-- <packages>
       <package name="com.codebase.*"/>
-    </packages>
+    </packages> -->
+    <classes>
+        <class name="com.codebase.ClappyTestClass" />
+    </classes>
   </test> <!-- Regressions -->
 </suite> <!-- CodeBaseSuite -->

@@ -101,7 +101,7 @@
 							<from>waqas.ahmed@mikaels.com</from>
 
 							<!-- Email subject -->
-							<subject>Scheduled Automation Script Report</subject>
+							<subject>Clappy Automation Script Report</subject>
 
 							<!-- Fail the build if the mail doesnt reach -->
 							<failonerror>true</failonerror>
@@ -117,6 +117,9 @@
 							<receivers>
 								<!-- To Email address -->
 								<receiver>waqas.ahmed@mikaels.com</receiver>
+								<!-- <receiver>aman.pirzada@mikaels.com</receiver> -->
+								<!-- <receiver>owais@mikaels.com</receiver> -->
+								<!-- <receiver>faryal.anwar@mikaels.com</receiver> -->
 							</receivers>
 							<fileSets>
 								<fileSet>
