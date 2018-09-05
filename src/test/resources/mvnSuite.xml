@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CodeBaseSuite">
   <test thread-count="1" name="Regressions">
-    <!-- <packages>
-      <package name="com.codebase.*"/>
-    </packages> -->
-    <classes>
+    <packages>
+      <package name="com.clappy.*"/>
+    </packages>
+    <!-- <classes>
         <class name="com.codebase.ClappyTestClass" />
-    </classes>
+    </classes> -->
   </test> <!-- Regressions -->
 </suite> <!-- CodeBaseSuite -->

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="1" name="Test">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="com.clappy.ClappyAdminTestClass"/>
+      <class name="com.codebase.FrankTestClass"/>
+      <class name="com.codebase.WebTestClass"/>
+      <class name="com.codebase.WebTestClass3"/>
+      <class name="com.codebase.WebTestClass2"/>
+      <class name="com.frankai.FrankTestClass"/>
       <class name="com.codebase.ClappyTestClass"/>
     </classes>
   </test> <!-- Test -->
