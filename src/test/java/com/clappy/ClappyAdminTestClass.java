@@ -89,7 +89,65 @@ public class ClappyAdminTestClass {
 		  dsl.clappytestclass.VerifyCreateAdminSuccessMessage();
 	  }
 	  
+	  @Test
+	  public void Test12_Redirect_To_Client_Management() {
+		  dsl.clappytestclass.ClickOnClientManagement();
+	  }
 	  
+	  @Test
+	  public void Test13_Verify_Redirection_To_Client_Management() {
+		  dsl.clappytestclass.VerifyRedirectionToClientManagement();		  
+	  }
+	  
+	  @Test
+	  public void Test14_Verify_10_Client_Management_Elements() {
+		  dsl.clappytestclass.VerifyClientManagementElements();
+	  }
+	  
+	  @Test
+	  public void Test15_Create_New_Client() {
+		  dsl.clappytestclass.ClickNewClientButton();
+	  }
+	  
+	  @Test
+	  public void Test16_Verify_Redirection_To_Create_Client_Form() {
+		  dsl.clappytestclass.VerifyRedirectionToCreateClientForm();		  
+	  }
+	  
+	  @Test
+	  public void Test17_Fill_Create_Client_Form() {
+		  dsl.clappytestclass.FillCreateClientForm();		  
+	  }
+	  
+	  @Test
+	  public void Test18_Click_Create_Client() {
+		  dsl.clappytestclass.ClickCreateClientButton();
+	  }
+	  
+	  @Test
+	  public void Test19_Verify_Create_Client_Success_Message() {
+		  dsl.clappytestclass.VerifyCreateClientSuccessMessage();
+	  }
+	  
+	  @Test
+	  public void Test20_Redirect_To_Client_Management() {
+		  dsl.clappytestclass.ClickOnModuleManagement();
+	  }
+	  
+	  @Test
+	  public void Test21_Verify_Redirection_To_Modules_Management() {
+		  dsl.clappytestclass.VerifyRedirectionToModulesManagement();		  
+	  }
+	  
+	  @Test
+	  public void Test22_Verify_3_Modules_Management_Elements() {
+		  dsl.clappytestclass.VerifyModuleManagementElements();
+	  }
+	  
+	  @Test
+	  public void Test23_Verify_6_Modules_Management_Modules() {
+		  dsl.clappytestclass.VerifyModuleManagementModules();
+	  }
 	  
 	  @AfterClass
 	  public void afterClass() throws Exception {

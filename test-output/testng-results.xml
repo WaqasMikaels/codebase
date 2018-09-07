@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[setting value isnull]]>
@@ -20,12 +20,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-09-05T11:37:04Z" name="Default suite" finished-at="2018-09-05T11:37:46Z" duration-ms="41897">
+  <suite started-at="2018-09-07T11:41:15Z" name="Default suite" finished-at="2018-09-07T11:42:18Z" duration-ms="63437">
     <groups>
     </groups>
-    <test started-at="2018-09-05T11:37:04Z" name="Default test" finished-at="2018-09-05T11:37:46Z" duration-ms="41897">
+    <test started-at="2018-09-07T11:41:15Z" name="Default test" finished-at="2018-09-07T11:42:18Z" duration-ms="63437">
       <class name="com.clappy.ClappyAdminTestClass">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:04Z" name="beforeClass" finished-at="2018-09-05T11:37:11Z" duration-ms="6857" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:15Z" name="beforeClass" finished-at="2018-09-07T11:41:24Z" duration-ms="8716" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -47,51 +47,99 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Fill_Login_Credentials()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:11Z" name="Test01_Fill_Login_Credentials" finished-at="2018-09-05T11:37:18Z" duration-ms="7436" status="PASS">
+        <test-method signature="Test01_Fill_Login_Credentials()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:24Z" name="Test01_Fill_Login_Credentials" finished-at="2018-09-07T11:41:31Z" duration-ms="7394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Fill_Login_Credentials -->
-        <test-method signature="Test02_Click_Login_Button()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:18Z" name="Test02_Click_Login_Button" finished-at="2018-09-05T11:37:24Z" duration-ms="6501" status="PASS">
+        <test-method signature="Test02_Click_Login_Button()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:31Z" name="Test02_Click_Login_Button" finished-at="2018-09-07T11:41:37Z" duration-ms="6033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Click_Login_Button -->
-        <test-method signature="Test03_Verify_Login()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:24Z" name="Test03_Verify_Login" finished-at="2018-09-05T11:37:26Z" duration-ms="1038" status="PASS">
+        <test-method signature="Test03_Verify_Login()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:37Z" name="Test03_Verify_Login" finished-at="2018-09-07T11:41:38Z" duration-ms="1034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Login -->
-        <test-method signature="Test04_Redirect_To_Admin_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:26Z" name="Test04_Redirect_To_Admin_Management" finished-at="2018-09-05T11:37:30Z" duration-ms="4218" status="PASS">
+        <test-method signature="Test04_Redirect_To_Admin_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:38Z" name="Test04_Redirect_To_Admin_Management" finished-at="2018-09-07T11:41:42Z" duration-ms="3394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Redirect_To_Admin_Management -->
-        <test-method signature="Test05_Verify_Redirection_To_Admin_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:30Z" name="Test05_Verify_Redirection_To_Admin_Management" finished-at="2018-09-05T11:37:31Z" duration-ms="1030" status="PASS">
+        <test-method signature="Test05_Verify_Redirection_To_Admin_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:42Z" name="Test05_Verify_Redirection_To_Admin_Management" finished-at="2018-09-07T11:41:43Z" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Verify_Redirection_To_Admin_Management -->
-        <test-method signature="Test06_Verify_8_Admin_Management_Elements()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:31Z" name="Test06_Verify_8_Admin_Management_Elements" finished-at="2018-09-05T11:37:33Z" duration-ms="1803" status="PASS">
+        <test-method signature="Test06_Verify_8_Admin_Management_Elements()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:43Z" name="Test06_Verify_8_Admin_Management_Elements" finished-at="2018-09-07T11:41:43Z" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Verify_8_Admin_Management_Elements -->
-        <test-method signature="Test07_Create_New_Admin()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:33Z" name="Test07_Create_New_Admin" finished-at="2018-09-05T11:37:36Z" duration-ms="3874" status="PASS">
+        <test-method signature="Test07_Create_New_Admin()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:43Z" name="Test07_Create_New_Admin" finished-at="2018-09-07T11:41:47Z" duration-ms="3696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07_Create_New_Admin -->
-        <test-method signature="Test08_Verify_Redirection_To_Create_Admin_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:36Z" name="Test08_Verify_Redirection_To_Create_Admin_Form" finished-at="2018-09-05T11:37:38Z" duration-ms="1047" status="PASS">
+        <test-method signature="Test08_Verify_Redirection_To_Create_Admin_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:47Z" name="Test08_Verify_Redirection_To_Create_Admin_Form" finished-at="2018-09-07T11:41:48Z" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08_Verify_Redirection_To_Create_Admin_Form -->
-        <test-method signature="Test09_Fill_Create_Admin_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:38Z" name="Test09_Fill_Create_Admin_Form" finished-at="2018-09-05T11:37:39Z" duration-ms="1599" status="PASS">
+        <test-method signature="Test09_Fill_Create_Admin_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:48Z" name="Test09_Fill_Create_Admin_Form" finished-at="2018-09-07T11:41:50Z" duration-ms="1496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test09_Fill_Create_Admin_Form -->
-        <test-method signature="Test10_Click_Create_Admin()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:39Z" name="Test10_Click_Create_Admin" finished-at="2018-09-05T11:37:45Z" duration-ms="5996" status="PASS">
+        <test-method signature="Test10_Click_Create_Admin()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:50Z" name="Test10_Click_Create_Admin" finished-at="2018-09-07T11:41:55Z" duration-ms="5793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10_Click_Create_Admin -->
-        <test-method signature="Test11_Verify_Create_Admin_Success_Message()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:45Z" name="Test11_Verify_Create_Admin_Success_Message" finished-at="2018-09-05T11:37:45Z" duration-ms="219" status="PASS">
+        <test-method signature="Test11_Verify_Create_Admin_Success_Message()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:55Z" name="Test11_Verify_Create_Admin_Success_Message" finished-at="2018-09-07T11:41:56Z" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test11_Verify_Create_Admin_Success_Message -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.clappy.ClappyAdminTestClass@46fa7c39]" started-at="2018-09-05T11:37:45Z" name="afterClass" finished-at="2018-09-05T11:37:46Z" duration-ms="237" status="PASS">
+        <test-method signature="Test12_Redirect_To_Client_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:56Z" name="Test12_Redirect_To_Client_Management" finished-at="2018-09-07T11:41:58Z" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12_Redirect_To_Client_Management -->
+        <test-method signature="Test13_Verify_Redirection_To_Client_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:58Z" name="Test13_Verify_Redirection_To_Client_Management" finished-at="2018-09-07T11:41:59Z" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13_Verify_Redirection_To_Client_Management -->
+        <test-method signature="Test14_Verify_10_Client_Management_Elements()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:41:59Z" name="Test14_Verify_10_Client_Management_Elements" finished-at="2018-09-07T11:42:00Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test14_Verify_10_Client_Management_Elements -->
+        <test-method signature="Test15_Create_New_Client()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:00Z" name="Test15_Create_New_Client" finished-at="2018-09-07T11:42:04Z" duration-ms="3527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test15_Create_New_Client -->
+        <test-method signature="Test16_Verify_Redirection_To_Create_Client_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:04Z" name="Test16_Verify_Redirection_To_Create_Client_Form" finished-at="2018-09-07T11:42:05Z" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16_Verify_Redirection_To_Create_Client_Form -->
+        <test-method signature="Test17_Fill_Create_Client_Form()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:05Z" name="Test17_Fill_Create_Client_Form" finished-at="2018-09-07T11:42:06Z" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test17_Fill_Create_Client_Form -->
+        <test-method signature="Test18_Click_Create_Client()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:06Z" name="Test18_Click_Create_Client" finished-at="2018-09-07T11:42:13Z" duration-ms="6887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18_Click_Create_Client -->
+        <test-method signature="Test19_Verify_Create_Client_Success_Message()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:13Z" name="Test19_Verify_Create_Client_Success_Message" finished-at="2018-09-07T11:42:13Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test19_Verify_Create_Client_Success_Message -->
+        <test-method signature="Test20_Redirect_To_Client_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:13Z" name="Test20_Redirect_To_Client_Management" finished-at="2018-09-07T11:42:16Z" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test20_Redirect_To_Client_Management -->
+        <test-method signature="Test21_Verify_Redirection_To_Modules_Management()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:16Z" name="Test21_Verify_Redirection_To_Modules_Management" finished-at="2018-09-07T11:42:17Z" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test21_Verify_Redirection_To_Modules_Management -->
+        <test-method signature="Test22_Verify_3_Modules_Management_Elements()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:17Z" name="Test22_Verify_3_Modules_Management_Elements" finished-at="2018-09-07T11:42:18Z" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test22_Verify_3_Modules_Management_Elements -->
+        <test-method signature="Test23_Verify_6_Modules_Management_Modules()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:18Z" name="Test23_Verify_6_Modules_Management_Modules" finished-at="2018-09-07T11:42:18Z" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test23_Verify_6_Modules_Management_Modules -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.clappy.ClappyAdminTestClass@2cdd0d4b]" started-at="2018-09-07T11:42:18Z" name="afterClass" finished-at="2018-09-07T11:42:18Z" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

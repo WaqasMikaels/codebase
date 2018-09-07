@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.codebase.ClappyTestClass">
+      <class name="com.clappy.ClappyAdminTestClass">
         <methods>
-          <include name="Test06_Verify_8_Admin_Management_Elements"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="Test11_Verify_Create_Admin_Success_Message"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.codebase.ClappyTestClass -->
+      </class> <!-- com.clappy.ClappyAdminTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
