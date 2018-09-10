@@ -108,7 +108,7 @@ public class ClappyTestClass_UI extends BaseUi {
 	@FindBy(xpath = "//*[@id=\"right-col\"]/table/thead/tr/th[5]")
 	private WebElement colStateCM;
 	
-	@FindBy(css = "[class = 'admin_checkbox']")
+	@FindBy(css = "[class = 'client_checkbox']")
 	private WebElement chkbxStateCM;
 	
 	@FindBy(xpath = "//*[@id=\"append-users-here\"]/tr[1]/td[6]/a[1]/button")
