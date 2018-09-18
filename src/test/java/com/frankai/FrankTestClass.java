@@ -91,6 +91,24 @@ public class FrankTestClass {
 		  dsl.franktestclass.ClickSaveAndContinue2();
 	  }
 	  
+	  @Test
+	  public void Test13_Click_Create_Fb_Ad() {
+		  dsl.franktestclass.ClickUploadFbAd();
+	  }
+	  
+	  @Test
+	  public void Test14_Fill_Fb_Ad_Form() {
+		  dsl.franktestclass.EnterPostText();
+		  dsl.franktestclass.EnterHeadline();
+		  dsl.franktestclass.EnterIntroText();
+		  dsl.franktestclass.EnterWebsiteLink();
+	  }
+	  
+	  @Test
+	  public void Test15_Upload_Banners() throws IOException {
+		  dsl.franktestclass.UploadBanners();
+	  }
+	  
 	  @AfterClass
 	  public void afterClass() throws Exception {
 		  dsl.closeBrowser();

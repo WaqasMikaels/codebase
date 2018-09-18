@@ -162,6 +162,8 @@ public class ClappyTestClass_UI extends BaseUi {
 	@FindBy(xpath = "//*[@id=\"append-users-here\"]/tr[6]/td[2]")
 	private WebElement moduleConvertBrandedInteration;
 	
+	
+	
 	public void CheckClappyTitle() {
 		Assert.assertEquals("Frank.ai", driver.getTitle()); 
 		// OR

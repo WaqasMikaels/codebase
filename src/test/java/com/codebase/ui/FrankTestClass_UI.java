@@ -128,11 +128,11 @@ public class FrankTestClass_UI extends BaseUi {
 	@FindBy(css = "[class = 'twelve wide column']")
 	private WebElement randomClick;
 	
+	@FindBy(xpath = "//*[@id=\"interests-field\"]/div[3]/div/input")
+	private WebElement drdafSpecificInterest;
+	
 	@FindBy(xpath = "//*[@id=\"interests-field\"]/div[3]/div/div[1]")
 	private WebElement drdbfSpecificInterest;
-	
-	@FindBy(xpath = "//*[@id=\"interests-field\"]/div[3]/div/div[2]")
-	private WebElement drdafSpecificInterest;
 	
 	@FindBy(xpath = "//*[@id=\"interests-field\"]/div[3]/div/div[2]/div[1]")
 	private WebElement drdvalFirstInterest;
@@ -142,6 +142,36 @@ public class FrankTestClass_UI extends BaseUi {
 	
 	@FindBy(css = "[id = 'save-targets']")
 	private WebElement btnSaveAndContinue2;
+	
+	@FindBy(xpath = "//*[@id=\"targets-language-div\"]/h2")
+	private WebElement targetSpeakers;
+	
+	@FindBy(xpath = "//*[@id=\"interests-field\"]/div[1]/i")
+	private WebElement infoIcon;
+	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[4]/div[2]/div/div[3]/div/p/button")
+	private WebElement uploadFbAd;
+	
+	@FindBy(css = "[id = 'post-input']")
+	private WebElement txtPostText;
+	
+	@FindBy(css = "[id = 'headline-input']")
+	private WebElement txtHeadline;
+	
+	@FindBy(css = "[id = 'intro-input']")
+	private WebElement txtIntro;
+	
+	@FindBy(css = "[id = 'action-input']")
+	private WebElement drdAction;
+	
+	@FindBy(css = "[id = 'website']")
+	private WebElement txtWebLink;
+	
+	@FindBy(xpath = "//*[@id=\"upload-fb\"]/div/span/div/div")
+	private WebElement btnUploadVisuals;
+	
+	@FindBy(css = "[class = 'ui purple button']")
+	private WebElement btnSaveFbAd;
 	
 	public void CheckFrankTitle() {
 		Assert.assertEquals("Frank.ai", driver.getTitle()); 
@@ -246,20 +276,23 @@ public class FrankTestClass_UI extends BaseUi {
 	}
 	
 	public void ClickInterest() {
-		scrollDown(rbtnAny);
-		hardwait(1);
-		drdbfSpecificInterest.click();
-		hardwait(1);
+		scrollDown(targetSpeakers);
+		hardwait(3);
+		clickUsingJS(drdbfSpecificInterest);
+		hardwait(4);
 		drdafSpecificInterest.sendKeys("Software");
-		hardwait(1);
+		hardwait(3);
 		drdvalFirstInterest.click();
+		hardwait(1);
+		infoIcon.click();
 	}
 	
 	public void SelectEmailList() throws IOException {
-		btnBrowseFiles.click();
-		hardwait(1);
-		Runtime.getRuntime().exec("C:\\workspace\\codebase\\Fileupload.exe");
 		hardwait(3);
+		btnBrowseFiles.click();
+		hardwait(3);
+		Runtime.getRuntime().exec("C:\\workspace\\codebase\\Fileupload.exe");
+		hardwait(5);
 	}
 	
 	public void ClickSaveAndContinue2() {
@@ -268,7 +301,38 @@ public class FrankTestClass_UI extends BaseUi {
 		hardwait(5);
 	}
 	
+	public void ClickUploadFbAd() {
+		uploadFbAd.click();
+		hardwait(1);
+	}
 	
+	public void EnterPostText() {
+		txtPostText.sendKeys("This is from Post Text");
+		hardwait(3);
+	}
+	
+	public void EnterHeadline() {
+		txtHeadline.sendKeys("THIS IS FROM HEADLINE");
+		hardwait(3);
+	}
+	
+	public void EnterIntroText() {
+		txtIntro.sendKeys("This is from Intro Text");
+		hardwait(3);
+	}
+	
+	public void EnterWebsiteLink() {
+		txtWebLink.sendKeys("http://www.mikaels.com/");
+		hardwait(3);
+	}
+	
+	public void UploadBanners() throws IOException {
+		btnUploadVisuals.click();
+		hardwait(3);
+		Runtime.getRuntime().exec("C:\\workspace\\codebase\\Bannerupload.exe");
+		hardwait(5);
+		btnSaveFbAd.click();
+	}
 	
 	/*public void CheckFooterCountryName() {
 		isElementDisplayed(countryName);
