@@ -6,7 +6,7 @@
       <class name="com.frankai.FrankTestClass">
         <methods>
           <include name="beforeClass"/>
-          <include name="Test15_Upload_Banners"/>
+          <include name="Test18_Create_Campaign_And_Verify"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.frankai.FrankTestClass -->

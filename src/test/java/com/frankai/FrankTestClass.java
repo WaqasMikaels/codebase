@@ -109,6 +109,21 @@ public class FrankTestClass {
 		  dsl.franktestclass.UploadBanners();
 	  }
 	  
+	  @Test
+	  public void Test16_Click_Continue_To_Billing() {
+		  dsl.franktestclass.ClickContinueToBilling();
+	  }
+	  
+	  @Test
+	  public void Test17_Select_End_Date() {
+		  dsl.franktestclass.SelectEndDate();
+	  }
+	  
+	  @Test
+	  public void Test18_Create_Campaign_And_Verify() {
+		  dsl.franktestclass.VerifyCampaignCreatedSuccessMessage();
+	  }
+	  
 	  @AfterClass
 	  public void afterClass() throws Exception {
 		  dsl.closeBrowser();

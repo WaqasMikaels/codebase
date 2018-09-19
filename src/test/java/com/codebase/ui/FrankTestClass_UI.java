@@ -173,6 +173,24 @@ public class FrankTestClass_UI extends BaseUi {
 	@FindBy(css = "[class = 'ui purple button']")
 	private WebElement btnSaveFbAd;
 	
+	@FindBy(css = "[id = 'save-creatives']")
+	private WebElement btnContinue;
+	
+	@FindBy(css = "[id = 'end-date-input']")
+	private WebElement txtEndDate;
+	
+	@FindBy(xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[1]/div[1]")
+	private WebElement iconDateInfo;
+	
+	@FindBy(xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[4]/h2")
+	private WebElement headingPaymentDetails;
+	
+	@FindBy (xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[6]/button")
+	private WebElement btnSubmitCampaign;
+	
+	@FindBy (xpath = "//html/body/div[3]/div/div[1]/div[2]/div")
+	private WebElement msgCampaignSuccess;
+	
 	public void CheckFrankTitle() {
 		Assert.assertEquals("Frank.ai", driver.getTitle()); 
 		// OR
@@ -332,6 +350,27 @@ public class FrankTestClass_UI extends BaseUi {
 		Runtime.getRuntime().exec("C:\\workspace\\codebase\\Bannerupload.exe");
 		hardwait(5);
 		btnSaveFbAd.click();
+	}
+	
+	public void ClickContinueToBilling() {
+		hardwait(5);
+		btnContinue.click();
+	}
+	
+	public void SelectEndDate() {
+		txtEndDate.click();
+		hardwait(1);
+		txtEndDate.sendKeys("9/25/2018");
+		hardwait(1);
+		iconDateInfo.click();
+		scrollDown(headingPaymentDetails);
+		btnSubmitCampaign.click();
+		hardwait(10);
+	}
+	
+	public void VerifyCampaignCreatedSuccessMessage() {
+		hardwait(1);
+		isElementDisplayed(msgCampaignSuccess);
 	}
 	
 	/*public void CheckFooterCountryName() {

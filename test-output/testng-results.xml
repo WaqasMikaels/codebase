@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[setting value isnull]]>
@@ -20,12 +20,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-09-18T14:02:35Z" name="Default suite" finished-at="2018-09-18T14:04:20Z" duration-ms="105572">
+  <suite started-at="2018-09-19T11:25:49Z" name="Default suite" finished-at="2018-09-19T11:27:58Z" duration-ms="129027">
     <groups>
     </groups>
-    <test started-at="2018-09-18T14:02:35Z" name="Default test" finished-at="2018-09-18T14:04:20Z" duration-ms="105572">
+    <test started-at="2018-09-19T11:25:49Z" name="Default test" finished-at="2018-09-19T11:27:58Z" duration-ms="129027">
       <class name="com.frankai.FrankTestClass">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:02:35Z" name="beforeClass" finished-at="2018-09-18T14:02:49Z" duration-ms="14743" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:25:49Z" name="beforeClass" finished-at="2018-09-19T11:26:04Z" duration-ms="15438" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -47,67 +47,79 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Frank_Title()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:02:49Z" name="Test01_Verify_Frank_Title" finished-at="2018-09-18T14:02:49Z" duration-ms="17" status="PASS">
+        <test-method signature="Test01_Verify_Frank_Title()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:04Z" name="Test01_Verify_Frank_Title" finished-at="2018-09-19T11:26:04Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Frank_Title -->
-        <test-method signature="Test02_Perform_Signin()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:02:49Z" name="Test02_Perform_Signin" finished-at="2018-09-18T14:03:01Z" duration-ms="11519" status="PASS">
+        <test-method signature="Test02_Perform_Signin()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:04Z" name="Test02_Perform_Signin" finished-at="2018-09-19T11:26:16Z" duration-ms="11548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Perform_Signin -->
-        <test-method signature="Test03_Verify_Signin()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:01Z" name="Test03_Verify_Signin" finished-at="2018-09-18T14:03:01Z" duration-ms="146" status="PASS">
+        <test-method signature="Test03_Verify_Signin()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:16Z" name="Test03_Verify_Signin" finished-at="2018-09-19T11:26:16Z" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Signin -->
-        <test-method signature="Test04_Click_Create_Campaign()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:01Z" name="Test04_Click_Create_Campaign" finished-at="2018-09-18T14:03:06Z" duration-ms="5090" status="PASS">
+        <test-method signature="Test04_Click_Create_Campaign()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:16Z" name="Test04_Click_Create_Campaign" finished-at="2018-09-19T11:26:21Z" duration-ms="5123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Click_Create_Campaign -->
-        <test-method signature="Test05_Campaign_Setup_Step()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:06Z" name="Test05_Campaign_Setup_Step" finished-at="2018-09-18T14:03:15Z" duration-ms="8889" status="PASS">
+        <test-method signature="Test05_Campaign_Setup_Step()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:21Z" name="Test05_Campaign_Setup_Step" finished-at="2018-09-19T11:26:30Z" duration-ms="8986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Campaign_Setup_Step -->
-        <test-method signature="Test06_Select_Location()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:15Z" name="Test06_Select_Location" finished-at="2018-09-18T14:03:20Z" duration-ms="5394" status="PASS">
+        <test-method signature="Test06_Select_Location()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:30Z" name="Test06_Select_Location" finished-at="2018-09-19T11:26:36Z" duration-ms="5624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Select_Location -->
-        <test-method signature="Test07_Click_Save_And_Continue()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:20Z" name="Test07_Click_Save_And_Continue" finished-at="2018-09-18T14:03:23Z" duration-ms="2182" status="PASS">
+        <test-method signature="Test07_Click_Save_And_Continue()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:36Z" name="Test07_Click_Save_And_Continue" finished-at="2018-09-19T11:26:38Z" duration-ms="2203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07_Click_Save_And_Continue -->
-        <test-method signature="Test08_Select_Age_Group()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:23Z" name="Test08_Select_Age_Group" finished-at="2018-09-18T14:03:25Z" duration-ms="2110" status="PASS">
+        <test-method signature="Test08_Select_Age_Group()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:38Z" name="Test08_Select_Age_Group" finished-at="2018-09-19T11:26:40Z" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08_Select_Age_Group -->
-        <test-method signature="Test09_Select_Target_Language_Speakers()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:25Z" name="Test09_Select_Target_Language_Speakers" finished-at="2018-09-18T14:03:26Z" duration-ms="1157" status="PASS">
+        <test-method signature="Test09_Select_Target_Language_Speakers()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:40Z" name="Test09_Select_Target_Language_Speakers" finished-at="2018-09-19T11:26:41Z" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test09_Select_Target_Language_Speakers -->
-        <test-method signature="Test10_Select_Specific_Interest()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:26Z" name="Test10_Select_Specific_Interest" finished-at="2018-09-18T14:03:38Z" duration-ms="11954" status="PASS">
+        <test-method signature="Test10_Select_Specific_Interest()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:41Z" name="Test10_Select_Specific_Interest" finished-at="2018-09-19T11:26:53Z" duration-ms="12074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10_Select_Specific_Interest -->
-        <test-method signature="Test11_Upload_1000_Contacts_txt_or_csv()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:38Z" name="Test11_Upload_1000_Contacts_txt_or_csv" finished-at="2018-09-18T14:03:49Z" duration-ms="11432" status="PASS">
+        <test-method signature="Test11_Upload_1000_Contacts_txt_or_csv()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:26:53Z" name="Test11_Upload_1000_Contacts_txt_or_csv" finished-at="2018-09-19T11:27:05Z" duration-ms="11642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test11_Upload_1000_Contacts_txt_or_csv -->
-        <test-method signature="Test12_Click_Save_And_Continue2()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:49Z" name="Test12_Click_Save_And_Continue2" finished-at="2018-09-18T14:03:54Z" duration-ms="5151" status="PASS">
+        <test-method signature="Test12_Click_Save_And_Continue2()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:05Z" name="Test12_Click_Save_And_Continue2" finished-at="2018-09-19T11:27:10Z" duration-ms="5163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test12_Click_Save_And_Continue2 -->
-        <test-method signature="Test13_Click_Create_Fb_Ad()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:54Z" name="Test13_Click_Create_Fb_Ad" finished-at="2018-09-18T14:03:56Z" duration-ms="1159" status="PASS">
+        <test-method signature="Test13_Click_Create_Fb_Ad()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:10Z" name="Test13_Click_Create_Fb_Ad" finished-at="2018-09-19T11:27:11Z" duration-ms="1304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13_Click_Create_Fb_Ad -->
-        <test-method signature="Test14_Fill_Fb_Ad_Form()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:03:56Z" name="Test14_Fill_Fb_Ad_Form" finished-at="2018-09-18T14:04:09Z" duration-ms="13860" status="PASS">
+        <test-method signature="Test14_Fill_Fb_Ad_Form()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:11Z" name="Test14_Fill_Fb_Ad_Form" finished-at="2018-09-19T11:27:26Z" duration-ms="14341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test14_Fill_Fb_Ad_Form -->
-        <test-method signature="Test15_Upload_Banners()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:04:09Z" name="Test15_Upload_Banners" finished-at="2018-09-18T14:04:18Z" duration-ms="8579" status="PASS">
+        <test-method signature="Test15_Upload_Banners()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:26Z" name="Test15_Upload_Banners" finished-at="2018-09-19T11:27:34Z" duration-ms="8891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test15_Upload_Banners -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.frankai.FrankTestClass@4f67eb2a]" started-at="2018-09-18T14:04:18Z" name="afterClass" finished-at="2018-09-18T14:04:20Z" duration-ms="2098" status="PASS">
+        <test-method signature="Test16_Click_Continue_To_Billing()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:34Z" name="Test16_Click_Continue_To_Billing" finished-at="2018-09-19T11:27:40Z" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test16_Click_Continue_To_Billing -->
+        <test-method signature="Test17_Select_End_Date()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:40Z" name="Test17_Select_End_Date" finished-at="2018-09-19T11:27:56Z" duration-ms="16531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test17_Select_End_Date -->
+        <test-method signature="Test18_Create_Campaign_And_Verify()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:56Z" name="Test18_Create_Campaign_And_Verify" finished-at="2018-09-19T11:27:57Z" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test18_Create_Campaign_And_Verify -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.frankai.FrankTestClass@78ffe6dc]" started-at="2018-09-19T11:27:57Z" name="afterClass" finished-at="2018-09-19T11:27:58Z" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
